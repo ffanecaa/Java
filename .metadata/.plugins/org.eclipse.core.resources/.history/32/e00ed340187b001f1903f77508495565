@@ -1,0 +1,7 @@
+package cursoDao;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.curso.model.Curso;
+public interface LibroDao   extends JpaRepository<Curso, String>{
+
+}
