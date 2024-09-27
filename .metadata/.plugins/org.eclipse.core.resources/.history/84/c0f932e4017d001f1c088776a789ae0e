@@ -32,19 +32,18 @@ public class CursosServiceImpl implements CursosService {
 	}
 	public void actualizarCurso(String codCurso, int duracion) {
 	    
-	/*    Optional<Curso> cursoOptional = dao.findById(codCurso);
+	    Optional<Curso> cursoOptional = dao.findById(codCurso);
 	    
 	    if (cursoOptional.isPresent()) {
 	        
 	        Curso cursoExistente = cursoOptional.get();
 	        cursoExistente.setDuracion(duracion);
-	        */
-	     Curso cursoExistente=  buscarCurso(codCurso);
-	     cursoExistente.setDuracion(duracion);
+	        
+	       
 	        dao.save(cursoExistente);
 	    }
 	   
-	
+	}
 
 
 	@Override
@@ -55,7 +54,8 @@ public class CursosServiceImpl implements CursosService {
 
 	@Override
 	public Curso buscarCurso(String codCurso) {
-		return dao.findById(codCurso).orElse(null);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

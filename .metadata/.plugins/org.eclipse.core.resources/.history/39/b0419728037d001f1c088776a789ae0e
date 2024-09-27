@@ -40,7 +40,6 @@ public class CursosServiceImpl implements CursosService {
 	        cursoExistente.setDuracion(duracion);
 	        */
 	     Curso cursoExistente=  buscarCurso(codCurso);
-	     cursoExistente.setDuracion(duracion);
 	        dao.save(cursoExistente);
 	    }
 	   

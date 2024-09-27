@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.curso.model.Curso;
+import com.curso.model.Libro;
 import com.curso.service.CursosService;
 
 @RestController

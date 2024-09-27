@@ -39,12 +39,11 @@ public class CursosServiceImpl implements CursosService {
 	        Curso cursoExistente = cursoOptional.get();
 	        cursoExistente.setDuracion(duracion);
 	        */
-	     Curso cursoExistente=  buscarCurso(codCurso);
-	     cursoExistente.setDuracion(duracion);
+	     Curso cursoExistente=  buscarCurso(codCurso)
 	        dao.save(cursoExistente);
 	    }
 	   
-	
+	}
 
 
 	@Override
