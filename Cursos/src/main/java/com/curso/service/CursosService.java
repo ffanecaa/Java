@@ -17,6 +17,7 @@ public interface CursosService {
 		List<Curso>eliminarCurso(String codCurso);
 		
 		Curso buscarCurso(String codCurso);
+		void actualizarCurso(String codCurso, int duracion);
 		
 
 	}

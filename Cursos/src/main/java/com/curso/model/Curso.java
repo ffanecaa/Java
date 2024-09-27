@@ -12,14 +12,6 @@ public class Curso {
   private  String nombre;
   private int duracion ;
   private  int precio ;
-  
-public Curso(String codCurso, String nombre, int duracion, int precio) {
-	super();
-	codCurso = codCurso;
-	this.nombre = nombre;
-	this.duracion = duracion;
-	this.precio = precio;
-}
 public Curso() {
 	super();
 }
@@ -27,7 +19,7 @@ public String getCodCurso() {
 	return codCurso;
 }
 public void setCodCurso(String codCurso) {
-	codCurso = codCurso;
+	this.codCurso = codCurso;
 }
 public String getNombre() {
 	return nombre;
@@ -47,8 +39,7 @@ public int getPrecio() {
 public void setPrecio(int precio) {
 	this.precio = precio;
 }
-  
-  
+
   
   
   

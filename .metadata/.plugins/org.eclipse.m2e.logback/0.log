@@ -138,3 +138,17 @@
 2024-09-25 17:43:58,945 [Worker-64: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-09-25 17:43:58,965 [Worker-64: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-25 17:43:58,972 [Worker-64: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-25 17:55:50,792 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-25 18:07:12,615 [Worker-35: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-25 18:07:12,642 [Worker-35: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-25 18:07:12,652 [Worker-35: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-25 18:18:54,409 [Worker-40: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-25 18:18:54,422 [Worker-40: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-25 18:18:54,431 [Worker-40: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-25 19:39:51,283 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-25 19:39:51,347 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-25 19:39:51,356 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-27 19:16:05,253 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-27 19:17:39,535 [Worker-1: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-27 19:17:39,560 [Worker-1: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-27 19:17:39,569 [Worker-1: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources

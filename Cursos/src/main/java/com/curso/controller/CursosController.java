@@ -34,6 +34,11 @@ public class CursosController {
 	public void actualizar(@RequestBody Curso curso) {
 		service.actualizarCurso(curso);
 	}
+	@PutMapping(value = "cursos/{codCurso}/{duracion}", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public void actualizar(@PathVariable("codCurso") String codCurso, @PathVariable("duracion") int duracion) {
+	    service.actualizarCurso(codCurso, duracion);
+	}
+
 	@DeleteMapping(value="cursos/{codCurso}", produces=MediaType.APPLICATION_JSON_VALUE)
 	
 	public List<Curso>eliminar(@PathVariable("codCurso")String codCurso){

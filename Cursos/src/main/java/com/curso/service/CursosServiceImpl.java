@@ -1,7 +1,7 @@
 package com.curso.service;
 
 import java.util.List;
-
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -30,6 +30,21 @@ public class CursosServiceImpl implements CursosService {
 		dao.save(curso);
 
 	}
+	public void actualizarCurso(String codCurso, int duracion) {
+	    
+	    Optional<Curso> cursoOptional = dao.findById(codCurso);
+	    
+	    if (cursoOptional.isPresent()) {
+	        
+	        Curso cursoExistente = cursoOptional.get();
+	        cursoExistente.setDuracion(duracion);
+	        
+	       
+	        dao.save(cursoExistente);
+	    }
+	   
+	}
+
 
 	@Override
 	public List<Curso> eliminarCurso(String codCurso) {
