@@ -167,3 +167,9 @@
 2024-09-27 21:01:27,513 [Worker-48: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-09-27 21:01:27,521 [Worker-48: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-27 21:01:27,531 [Worker-48: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-27 21:03:19,212 [Worker-51: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-27 21:03:19,237 [Worker-51: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-27 21:03:19,244 [Worker-51: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources
+2024-09-27 21:51:56,299 [Worker-62: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-27 21:51:56,312 [Worker-62: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-27 21:51:56,319 [Worker-62: Launching Cursos - CursosApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\marti\OneDrive\Escritorio\ejercicios\Cursos\src\test\resources

@@ -48,7 +48,13 @@ public class CursosController {
 	public List<Curso>eliminar(@PathVariable("codCurso")String codCurso){
 		return service.eliminarCurso(codCurso);
 	}
+
 	
+	@GetMapping(value="cursos/{minPrecio}/{maxPrecio}", produces=MediaType.APPLICATION_JSON_VALUE)
+	public List<Curso> filtrar(@PathVariable("minPrecio") int minPrecio, @PathVariable("maxPrecio") int maxPrecio) {
+	    return service.buscarPrecio(minPrecio, maxPrecio);
+	}
+
 	
 	
 	

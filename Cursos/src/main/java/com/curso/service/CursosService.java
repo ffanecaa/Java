@@ -18,6 +18,7 @@ public interface CursosService {
 		
 		Curso buscarCurso(String codCurso);
 		void actualizarCurso(String codCurso, int duracion);
+		List<Curso> buscarPrecio(int minPrecio, int maxPrecio);
 		
 
 	}

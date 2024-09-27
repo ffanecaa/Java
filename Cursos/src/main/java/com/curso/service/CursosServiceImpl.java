@@ -1,7 +1,8 @@
 package com.curso.service;
 
 import java.util.List;
-import java.util.Optional;
+//import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -44,6 +45,14 @@ public class CursosServiceImpl implements CursosService {
 	        dao.save(cursoExistente);
 	    }
 	   
+	
+	public List<Curso> buscarPrecio(int minPrecio, int maxPrecio) {
+	    return dao.findAll() 
+	              .stream()
+	              .filter(curso -> curso.getPrecio() >= minPrecio && curso.getPrecio() <= maxPrecio) 
+	              .collect(Collectors.toList());
+	}
+
 	
 
 
