@@ -46,16 +46,14 @@ public class CursosServiceImpl implements CursosService {
 	    }
 	   
 	
-	/*public List<Curso> buscarPrecio(int minPrecio, int maxPrecio) {
+	public List<Curso> buscarPrecio(int minPrecio, int maxPrecio) {
 	    return dao.findAll() 
 	              .stream()
 	              .filter(curso -> curso.getPrecio() >= minPrecio && curso.getPrecio() <= maxPrecio) 
 	              .collect(Collectors.toList());
-	}*/
+	}
 
-	  public List<Curso> buscarPrecio(int minPrecio, int maxPrecio) {
-	        return dao.findByPrecioBetween(minPrecio, maxPrecio);
-	    }
+	
 
 
 	@Override
